@@ -20,13 +20,15 @@ import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzIconModule } from 'ng-zorro-antd/icon'; // Make sure to include NzIconModule if you are using icons
 import { NzNotificationModule } from 'ng-zorro-antd/notification';
+import { LoginComponent } from './auth-components/login/login.component';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignupComponent
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
